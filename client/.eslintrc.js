@@ -11,7 +11,7 @@ module.exports = {
     "airbnb",
     "airbnb/hooks",
     "airbnb-typescript",
-    "plugin:prettier/recommended"
+    "eslint-config-prettier"
   ],
   "parserOptions": {
     "ecmaVersion": 2020,

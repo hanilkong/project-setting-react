@@ -163,7 +163,7 @@ module.exports = {
       'process.env': JSON.stringify(process.env),
     }),
     // build파일에 주석 추가
-    // new webpack.BannerPlugin(banner),
+    new webpack.BannerPlugin(banner),
     // manifest 생성
     new WebpackManifestPlugin({
       fileName: 'assets.json',

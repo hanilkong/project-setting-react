@@ -6,11 +6,12 @@ module.exports = {
     "import"
   ],
   "extends": [
-    "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "airbnb",
     "airbnb/hooks",
     "airbnb-typescript",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:prettier/recommended",
     "eslint-config-prettier"
   ],
   "parserOptions": {
